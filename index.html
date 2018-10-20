@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Selector de ropa</title>
+</head>
+<body>
+	<select id="prenda" onchange="changes()">
+		<option disabled selected value>Elige una prenda...</option>
+		<option value="cami">Camiseta</option>
+		<option value="sud">Sudadera</option>
+	</select>
+	<select id="color" onchange="changes()" style="display: none">
+		<option disabled selected value>Elige un color...</option>
+		<option value="negro">Negro</option>
+		<option value="blanco">Blanco</option>
+	</select>
+	<select id="logo" onchange="changes()" style="display: none">
+		<option disabled selected value>Elige un logo...</option>
+		<option value="bm">BM</option>
+		<option value="blme">Black Method</option>
+		<option value="afr1">Tela africana multi</option>
+		<option value="afr2">Tela africana rojo amarillo</option>
+	</select>
+
+	<div>
+		
+		<img id="res" src=" " style="width: 400px; height: 600px; margin: 30px 0 0 10px; ">
+
+	</div>
+
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
